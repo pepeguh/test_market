@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
 }
 .shelf {
   display: flex;
@@ -28,7 +29,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 50vh;
-  transform: scale(1.5);
+  /* transform: scale(1.5); */
 }
 .products-1,
 .products-2,
@@ -85,6 +86,7 @@
   background-color: transparent;
 }
 .cart {
+  /* transform: scale(1.5); */
   position: relative;
   top: -370px;
   z-index: 2;
@@ -119,7 +121,7 @@
   justify-self: end;
 }
 .cart-product .product svg {
-  transform: scale(1.5);
+  /* transform: scale(1.5); */
 }
 #mainBtn {
   cursor: pointer;
