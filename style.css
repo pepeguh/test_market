@@ -121,7 +121,7 @@
   justify-self: end;
 }
 .cart-product .product svg {
-  /* transform: scale(1.5); */
+   transform: scale(1.5); 
 }
 #mainBtn {
   cursor: pointer;
